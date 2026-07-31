@@ -1,8 +1,29 @@
 aid: opti
 name: Opti
-description: Opti is a company surfaced as a portfolio company of mayfield and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Opti is an AI-native identity and access management (IAM) platform for
+  enterprises struggling with access sprawl across human, non-human, and agentic
+  identities. Founded in 2024 by Barak Perelman, Mille Gandelsman, and Ido
+  Trivizki, Opti deploys pre-trained, domain-specific large language models
+  trained on curated identity data to interpret risk, recommend least-privilege
+  access decisions, and orchestrate safe permissions. The platform spans Access
+  Intelligence, Risk Mitigation, Lifecycle Management (joiner/mover/leaver), and
+  Compliance, integrating with 250+ identity solutions, IdPs, IGAs, HRIS, and
+  ITSM systems without rip-and-replace. Opti raised a $20M seed round led by YL
+  Ventures, Mayfield Fund, and Hetz Ventures.
 url: https://raw.githubusercontent.com/api-evangelist/opti/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://framerusercontent.com/assets/ocBV684nz91aRWaADMmBg5iheM.jpg
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -11,9 +32,18 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Identity and Access Management
+- IAM
+- Identity Security
+- Access Governance
+- Non-Human Identity
+- Agentic Identity
+- Least Privilege
+- Compliance
+- Artificial Intelligence
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +51,24 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/opti-domain-security.yml
 - type: Website
   url: https://opti.ai
+- type: Blog
+  url: https://www.opti.ai/articles
+- type: TrustCenter
+  url: https://trust.opti.ai/
+- type: PrivacyPolicy
+  url: https://www.opti.ai/privacy
+- type: TermsOfService
+  url: https://www.opti.ai/terms-and-conditions
+- type: Support
+  url: https://www.opti.ai/contact
+- type: Login
+  url: https://app.opti.ai/
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
